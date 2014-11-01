@@ -1,0 +1,31 @@
+set fish_greeting # Clears greatings
+
+##########
+# Aliases
+#########
+
+alias ... 'cd ../..'
+
+alias grep 'grep --colour'
+
+alias l 'ls -rt'
+
+alias ll 'ls -lah'
+
+alias update 'sudo apt-get update'
+
+alias upgrade 'sudo apt-get upgrade'
+
+alias disk 'df --human-readable --total --print-type'
+
+alias show-ram 'free --human'
+
+alias snipe 'ps xw | grep --ignore-case'
+
+alias serve 'eth0ip; and wlan0ip; and python -m SimpleHTTPServer'
+
+alias bitch, sudo
+
+alias du 'du --total --human-readable --max-depth=1'
+
+alias aliases 'grep alias ~/.config/fish/fish.config'
