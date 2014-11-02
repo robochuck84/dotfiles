@@ -1,0 +1,13 @@
+unbind C-b
+
+set -g prefix C-A
+
+unbind r
+bind r source-file ~/.tmux.conf
+
+set -g base-index 1
+
+setw -g utf8 on
+set -g status on
+set -g status-utf8 on
+
