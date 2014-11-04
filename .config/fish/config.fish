@@ -1,5 +1,7 @@
 set fish_greeting # Clears greatings
 
+set -x LC_ALL "en_US.UTF-8"
+
 ##########
 # Aliases
 #########
@@ -38,3 +40,7 @@ alias bitch, sudo
 alias du 'du --total --human-readable --max-depth=1'
 
 alias aliases 'grep alias ~/.config/fish/config.fish'
+
+alias desktop 'ssh -X trrogers-2.desktop.amazon.com'
+
+alias eclipse '~/Downloads/eclipse/eclipse&'
