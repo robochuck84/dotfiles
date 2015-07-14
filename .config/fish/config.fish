@@ -2,6 +2,8 @@ set fish_greeting # Clears greatings
 
 set -x LC_ALL "en_US.UTF-8"
 
+set PATH "/apollo/env/ruby193/bin" "/apollo/env/SDETools/bin" "/home/local/ANT/trrogers/anaconda/bin" $PATH
+
 ##########
 # Aliases
 #########
@@ -44,3 +46,15 @@ alias aliases 'grep alias ~/.config/fish/config.fish'
 alias desktop 'ssh -X trrogers-2.desktop.amazon.com'
 
 alias eclipse '~/Downloads/eclipse/eclipse&'
+
+alias brazil '/apollo/env/SDETools/bin/brazil'
+
+alias idea '/usr/src/idea-IC-139.1117.1/bin/idea.sh&'
+
+alias bb 'brazil-build'
+
+alias bbr 'brazil-build release'
+
+alias bbap 'brazil-build apollo-pkg'
+
+alias bbs 'brazil-build server'
