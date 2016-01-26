@@ -4,6 +4,8 @@ set -x LC_ALL "en_US.UTF-8"
 
 set PATH "/apollo/env/ruby193/bin" "/apollo/env/SDETools/bin" "/home/local/ANT/trrogers/anaconda/bin" $PATH
 
+set -x RECON_HOME "/workspace/trrogers/RetailReconciliationService-Release/src"
+
 ##########
 # Aliases
 #########
@@ -45,11 +47,11 @@ alias aliases 'grep alias ~/.config/fish/config.fish'
 
 alias desktop 'ssh -X trrogers-2.desktop.amazon.com'
 
+alias cloud 'ssh -X trrogers.aka.corp.amazon.com'
+
 alias eclipse '~/Downloads/eclipse/eclipse&'
 
 alias brazil '/apollo/env/SDETools/bin/brazil'
-
-alias idea '/usr/src/idea-IC-139.1117.1/bin/idea.sh&'
 
 alias bb 'brazil-build'
 
